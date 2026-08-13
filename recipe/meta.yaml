@@ -1,5 +1,5 @@
 {% set name = "wetlandmapper" %}
-{% set version = "1.0.6" %}
+{% set version = "1.1.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7e0c2ddd537008a653c091171d2fad7775f324a98893430b8b8c10553cf144b4
+  sha256: 18612902f1510373534d638117b1633bfd139d157a2bf7dde4e1c52b3bd26174
 
 build:
   number: 0
