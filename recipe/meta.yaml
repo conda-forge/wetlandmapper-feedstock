@@ -1,13 +1,13 @@
 {% set name = "wetlandmapper" %}
-{% set version = "1.1.11" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 18612902f1510373534d638117b1633bfd139d157a2bf7dde4e1c52b3bd26174
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 5465ed7b0642e3fc231ef0f4e0bf255c76f3c701d87b3adf17ce47fcd1caf268
 
 build:
   number: 0
